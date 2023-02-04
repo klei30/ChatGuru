@@ -64,7 +64,7 @@ const CommandBox: NextPage<CommandBoxable> = (prop: CommandBoxable) => {
     },
     {
       icon: 'fa-code',
-      name: 'Generate code',
+      name: 'Generate code (soon)',
       onClick: (index: number) => {
         const isDisabled: boolean =
           content[Object.keys(commands)[index]].isDisabled;
