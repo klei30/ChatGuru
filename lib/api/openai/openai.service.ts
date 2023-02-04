@@ -153,9 +153,9 @@ class OpenAIClient {
       }
     } catch (error: any) {
       console.log({ error: error.message });
-      const msg = {
+        const msg = {
         preffered: `<h3>🚧 Notice:</h3>
-        We apologize for the inconvenience, but due to exceptionally high demand, our service is currently unavailable. We encourage you to check back later or, if you have any questions or concerns, please don't hesitate to contact the developer, <a href="https://wardvisual.me/" target="_blank" title="Klei Aliaj">Wardvisual</a>. 
+        We apologize for the inconvenience, but due to exceptionally high demand, our service is currently unavailable. We encourage you to check back later or, if you have any questions or concerns, please don't hesitate to contact the developer, <a href="https://kleialiaj.vercel.app/contact" target="_blank" title="Klei Aliaj">Klei Aliaj</a>. 
         
         Thank you for your understanding and patience.`,
         expiredToken: `I'm sorry, but the service is currently not available due to development work. Please check back later or contact wardvisual, the developer of this app, for further assistance.`,
