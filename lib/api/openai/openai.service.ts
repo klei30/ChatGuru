@@ -38,8 +38,8 @@ class OpenAIClient {
         this.promptConfig = {
           model: this.defaultModel,
           prompt: this.prompt.trainPrompt(command, userRequest),
-          temperature: 0.86,
-          max_tokens: 1896,
+          temperature: 0.99,
+          max_tokens: 4000,
           top_p: 1,
           frequency_penalty: 0.21,
           presence_penalty: 0.11,
