@@ -16,7 +16,7 @@ const Disclaimer = () => {
       customStyle={{ width: '85%' }}
     >
       <p>
-        This application is utilizing a free trial of{' '}
+        This application is utilizing the Ai of GPT3.5{' '}
         <a
           href="https://openai.com/"
           target="_blank"
