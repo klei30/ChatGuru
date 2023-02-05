@@ -50,7 +50,7 @@ const CommandBox: NextPage<CommandBoxable> = (prop: CommandBoxable) => {
     },
     {
       icon: 'fa-question-circle',
-      name: 'Answer Basic Questions',
+      name: 'Talk With AI',
       onClick: (index: number) => {
         const isDisabled: boolean =
           content[Object.keys(commands)[index]].isDisabled;
